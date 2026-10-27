@@ -1,11 +1,11 @@
-# SMT Fixture Verify 4.7
+# SMT Fixture Verify 4.8
 
-Publicação estática para GitHub Pages.
+Aplicativo estático: https://tqo86.github.io/smtfixtureverify/
 
-- Repositório público sugerido: `smtfixtureverify`.
-- GitHub Pages: publicar a raiz da branch `main`.
-- URL esperada: `https://<usuario>.github.io/smtfixtureverify/`.
-- Os projetos são processados no navegador; nenhum arquivo de teste privado foi incluído.
-- `index.html` é uma cópia idêntica do aplicativo 4.7 já publicado.
+Com uma camada Gerber trancada selecionada, **Selecionar Gerber** permite selecionar elementos de todas as camadas Gerber trancadas e visíveis. Clique, caixa e Shift funcionam entre camadas. Apagar elementos e Delete apagam toda a seleção; Ctrl+Z desfaz a exclusão conjunta.
 
-SHA-256 do HTML: `6fd0b8094a2b60ddf2c5fc8249db7d52c7e7b2398af2f401be9e19c3a86f8567`.
+Camadas destrancadas continuam independentes. Os projetos `.sfv` preservam os arquivos originais, transformações e exclusões por camada; projetos antigos continuam compatíveis.
+
+GitHub Pages publica a raiz da branch `main`. Os projetos são processados localmente no navegador. Nenhum arquivo de cliente ou projeto de teste foi incluído.
+
+SHA-256 de `index.html`: `a554bdd2b47f39fd458e86e47bff44984518c4135d3b83cf5621177c98efd5fc`.
