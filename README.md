@@ -1,11 +1,11 @@
-# SMT Fixture Verify 5.0
+# SMT Fixture Verify 5.1
 
 Aplicativo estático: https://tqo86.github.io/smtfixtureverify/
 
-A segunda camada Gerber importada usa roxo (#8b5cf6) como cor padrão. As cores de projetos existentes são preservadas.
+A análise aceita recortes de polaridade clear (LPC), canais e macros compostas. Os recortes são subtraídos dos pads anteriores, preservando furos, a ordem das exposições e os contornos usados para medir folga. Não há rejeição genérica de camadas com LPC.
 
-Inclui os checkboxes X e Y para atualizar separadamente as coordenadas globais da marcação de centro. Os projetos .sfv preservam arquivos originais, transformações e edições.
+Os projetos .sfv preservam arquivos originais, transformações, centros e edições. As funcionalidades das versões anteriores, incluindo seleção entre camadas trancadas, eixos X/Y de centro e segunda camada roxa, foram mantidas.
 
 GitHub Pages publica a raiz da branch main. Os projetos são processados localmente no navegador.
 
-SHA-256 de index.html: 82a29246205bb96db8b992857ffc724520a5577007e0c20cbc2be311368860d8.
+SHA-256 de index.html: 8926e69f5e8300d5167da5aa82e1173383d5ad05ab85057ff7e66dfaf4511705.
