@@ -1,6 +1,8 @@
-# SMT Fixture Verify 5.3
+# SMT Fixture Verify 5.4
 
 Aplicativo estático: https://tqo86.github.io/smtfixtureverify/
+
+Importar 2D reúne Gerber e DXF em um único botão, com identificação automática por arquivo e suporte a seleção mista. Os formatos Gerber com extensões tradicionais, extensões personalizadas e sem extensão continuam aceitos. O botão DXF separado e o aviso de unidade STEP foram removidos; os controles de unidade STL permanecem.
 
 A margem de segurança aceita zero e inicia em zero ao abrir o aplicativo ou criar projeto. Colisões continuam vermelhas com segurança zero. Projetos salvos mantêm o valor configurado.
 
@@ -12,4 +14,4 @@ Os projetos .sfv preservam arquivos originais, transformações, centros e ediç
 
 GitHub Pages publica a raiz da branch main. Os projetos são processados localmente no navegador.
 
-SHA-256 de index.html: 51b5db90f99f2afa561a4f0cb07c944db210cb4157d47f63ddefa820cadc63b5.
+SHA-256 de index.html: d71cddbdc201fe4bc7f6342c4b674472765bc40405da9ffd04e2b348c23d699c.
