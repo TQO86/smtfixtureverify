@@ -1,11 +1,13 @@
-# SMT Fixture Verify 5.1
+# SMT Fixture Verify 5.2
 
 Aplicativo estático: https://tqo86.github.io/smtfixtureverify/
 
-A análise aceita recortes de polaridade clear (LPC), canais e macros compostas. Os recortes são subtraídos dos pads anteriores, preservando furos, a ordem das exposições e os contornos usados para medir folga. Não há rejeição genérica de camadas com LPC.
+A margem de segurança aceita zero e inicia em zero ao abrir o aplicativo ou criar projeto. Colisões continuam vermelhas com segurança zero. Projetos salvos mantêm o valor configurado.
 
-Os projetos .sfv preservam arquivos originais, transformações, centros e edições. As funcionalidades das versões anteriores, incluindo seleção entre camadas trancadas, eixos X/Y de centro e segunda camada roxa, foram mantidas.
+Centralizar sobre o modelo 3D e os comandos Zerar foram removidos. Medir encaixa no contorno externo visível da margem de segurança, além da folga. O zoom ajustado pelo usuário durante a análise permanece ao navegar pelos erros e repetir análises, até clicar em Sair da análise.
+
+Os projetos .sfv preservam arquivos originais, transformações, centros e edições. A análise continua aceitando os recortes de polaridade clear e macros compostas da versão 5.1.
 
 GitHub Pages publica a raiz da branch main. Os projetos são processados localmente no navegador.
 
-SHA-256 de index.html: 8926e69f5e8300d5167da5aa82e1173383d5ad05ab85057ff7e66dfaf4511705.
+SHA-256 de index.html: 4810d834380412166ddb718b3fba3ce47781b1a28bbbaf51966191974c433b49.
