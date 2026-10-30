@@ -1,11 +1,13 @@
-# SMT Fixture Verify 5.5
+# SMT Fixture Verify 5.7
 
 Aplicativo estático: https://tqo86.github.io/smtfixtureverify/
 
-Cadeados SVG com fundo transparente e haste aberta à direita. Clique alterna entre aberto e grupos 1 a 5; somente camadas fechadas com o mesmo número movem, giram e espelham juntas.
+Selecionar e Apagar unificados para elementos Gerber, linhas e curvas DXF e partes 3D nas camadas visíveis. Clique seleciona, caixa abrange as camadas visíveis e Shift adiciona elementos. Apagar ou Delete remove toda a seleção; um Ctrl+Z desfaz a operação conjunta.
 
-Duplicar camada no menu de botão direito preserva posição, aparência, grupo, centros, edições e originais incorporados. Novos Gerbers e DXFs abrem com Imagem ativada. Projetos antigos continuam compatíveis; cadeados antigos entram no grupo 1.
+Inclui os cadeados redesenhados com a haste aberta elevada e deslocada para a direita. Grupos numerados, duplicação e modo Imagem permanecem disponíveis.
+
+O formato .sfv 15 preserva as exclusões DXF e todos os arquivos originais; projetos antigos continuam compatíveis.
 
 GitHub Pages publica a raiz da branch main. Os projetos são processados localmente no navegador.
 
-SHA-256 de index.html: e014991c5f8b09c6985b27bd160d3b668c5f3c752c0d480f702dc02b38db45ac.
+SHA-256 de index.html: 5bc1215332f3fdde297bbb8bea90d4327ffb8869e6c017754aade210418eecde.
