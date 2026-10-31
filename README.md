@@ -1,13 +1,13 @@
-# SMT Fixture Verify 5.7
+# SMT Fixture Verify 5.8
 
-Aplicativo estático: https://tqo86.github.io/smtfixtureverify/
+Aplicativo: https://tqo86.github.io/smtfixtureverify/
 
-Selecionar e Apagar unificados para elementos Gerber, linhas e curvas DXF e partes 3D nas camadas visíveis. Clique seleciona, caixa abrange as camadas visíveis e Shift adiciona elementos. Apagar ou Delete remove toda a seleção; um Ctrl+Z desfaz a operação conjunta.
+Folga e margem de segurança compartilham seções em cache. Orbitar, zoom, ocultar/exibir e deslocar/girar a camada no mesmo plano não reconstroem as projeções. Alterar a altura ou orientação do plano, editar o modelo 3D ou alterar folga/margem atualiza somente o necessário.
 
-Inclui os cadeados redesenhados com a haste aberta elevada e deslocada para a direita. Grupos numerados, duplicação e modo Imagem permanecem disponíveis.
+Contornos conectados reduzem triângulos redundantes. Detalhes raster e dimensões externas aguardam a câmera parar. O aplicativo solicita GPU de alto desempenho; o navegador escolhe o hardware, sem divisão garantida entre GPUs.
 
-O formato .sfv 15 preserva as exclusões DXF e todos os arquivos originais; projetos antigos continuam compatíveis.
+**Medir 3D** conserva a distância espacial. **Medir 2D** mede em milímetros no plano da vista atual, ignorando profundidade, e informa componentes horizontal e vertical. Funciona nas projeções ortográfica e perspectiva.
 
-GitHub Pages publica a raiz da branch main. Os projetos são processados localmente no navegador.
+O formato .sfv 15 preserva os arquivos originais, transformações e edições. Projetos anteriores continuam compatíveis. Processamento local no navegador.
 
-SHA-256 de index.html: 5bc1215332f3fdde297bbb8bea90d4327ffb8869e6c017754aade210418eecde.
+SHA-256 de index.html: e1a456ec19d64e4c21ed3d18335afa56b202a9e43e750e1079f2c1a723502dec.
